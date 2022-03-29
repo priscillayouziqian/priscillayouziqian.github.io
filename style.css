@@ -1,0 +1,51 @@
+html{
+    background-color: lightblue;
+}
+
+.flexbox{
+    width: 80%;
+    height: 300px;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.sub{
+    border: 2px solid black;
+    width: 23%;
+    height: 50%;
+}
+
+.herobox{
+    border: 2px solid blue;
+    height: 400px;
+    position: relative;
+    
+}
+
+.herobox > img{
+    width: 100%;
+    height: 100%;
+}
+
+.smallbox{
+    position: absolute; /*must be absolute, and upper level position must be different than absolute, it can be relative or any other. */
+    top: 10%; 
+    color: white; 
+    background-color:darkgray;
+    left: 10%;
+    width: 30%;
+    text-align: center;
+}
+
+.smallbox2{
+    position: absolute; /*must be absolute, and upper level position must be different than absolute, it can be relative or any other. */
+    bottom: 10%;
+    color: white; 
+    background-color:rgba(190, 90, 60, 50%);
+    right: 10%;
+    width: 30%;
+    text-align:center;
+}
