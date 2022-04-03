@@ -1,0 +1,311 @@
+@charset="utf-8"
+    
+body{
+    background-color:aqua;
+    height: 1000px;
+    margin: 100vw;
+}
+    
+/*header block*/
+.headerbox{
+    width: 90%;
+    height: 10%;
+    background-color: antiquewhite;
+    position: relative;
+    margin: auto;
+}
+
+.imgframe{
+    border: 2px solid darkkhaki;
+    border-radius: 10px;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0;
+    animation-name: movelogo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.imgframe > img{
+    width: 100%;
+    height: 100%;
+}
+
+.bigflyingtext{
+    font-family: Pacifico, sans-serif;  
+    color: darkkhaki;
+    position: absolute;
+    top: 0;
+    animation: movebigtext 5s infinite;
+}
+
+.smallflyingtext{
+    color:brown;
+    position: absolute;
+    bottom: 0;
+    right: 10;
+    animation: movesmalltext 5s infinite;
+}
+
+@keyframes movesmalltext{ 
+    100% {right: 47%; top: 0;}
+}
+
+@keyframes movebigtext{
+    0% {left: 10%; top: 0%;}
+    50% {left: 30%; top: 20%;} 
+    100% {left: 68%; top: 40%;}
+}
+
+@keyframes movelogo{
+    0% {width: 1%; height: 1%; }   
+}
+
+.headertextbox{
+    padding-left: 15%;
+}
+
+/*slide show block*/
+.stage{
+    width: 90%;
+    height: 50px;
+    background-color: antiquewhite;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.slidewrapper{
+   width:200%;
+   height: 100%;
+   animation: slideshow 10s infinite;
+}
+
+.slide{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: coral;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+.s1{ background-color:burlywood;}
+.s2{ background-color: darkolivegreen;}
+
+@keyframes slideshow{
+    0% {margin-left: 0%}
+    50% {margin-left: -100%}
+}
+/*hero block*/
+.heroblock{
+    width: 90%;
+    height: 55%;
+    background-color: aqua;
+    background-image: url(images/images/intro_img2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 1px;
+    position: relative;
+    margin: auto;
+}
+
+.textInPicture{
+    width: 40%;
+    height: 40%;
+    background-color: darkgray;
+    position: absolute;
+    top: 28%;
+    left: 6%;
+    border: 10px solid lightblue;
+    border-radius: 10px;
+}
+
+.textInPicture > p{
+    text-align: center;
+    padding: 6px;
+}
+    
+/*product row block*/
+.productbox{
+    height: 72%;
+    width: 90%;
+    padding-top: 1;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+#h4needspadding{
+    padding-left: 2%;
+}
+
+.productFrame{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.product{
+    flex: auto;
+    width: 33.3333%;
+    text-align: center;
+    font-size: 15;
+    padding-bottom: 20px;
+}
+
+.product > img{
+    width: 50%;
+    height: 45%;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: 2px solid grey;
+    font-size: 10;
+}
+
+.mymodalwindow{
+    background-color: rgba(81, 102, 86, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.messagebox{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    height: 350px;
+    padding: 1px;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+}
+
+#crossX{
+    position: absolute;
+    right: 2%;
+    top: 0;
+    text-decoration: none;
+}
+
+#crossX:hover{
+    background-color: black;
+    color: white;
+    width: 5%;
+}
+
+.mymodalwindow:target{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.windowfloat{
+    height: 55%;
+    /*border: 1px solid red;*/
+    /*background-color: aquamarine;*/
+}
+
+.window-2by1{
+    width: 48%;
+    height: 80%;
+    float: left;
+}
+
+.window-2by1 > img{
+    width: 70%;
+    height: 90%;
+    padding: 10%;
+}
+
+.rightleveltext{
+    padding-top: 5%;
+    text-align: left;
+}
+
+.greybox{
+    background-color: darkgrey;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.greybox > p{
+    text-align:left;
+}
+
+.greybox > a{
+    text-decoration: none;
+    background-color: white;
+    font-size: 12px;
+    padding: 1%;
+}
+
+.greybox > a:hover{
+    background-color: black;
+    color: white;
+}
+    
+/*footer block*/
+
+footer{
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 11px;
+}
+
+.footerbox{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 17%;
+    clear: both;
+}
+
+.fourbyone{
+    width: 21%;
+    text-align: center;
+    padding: 13.4px;
+    padding-top: 30px;;
+    font-size: 11px;
+}
+
+.fourbyone > a{
+    text-decoration: none;
+    color: white;
+}
+
+.fourbyone > a:hover{
+    background-color: antiquewhite;
+    color: black;
+    padding: 2%;
+}
+
+.socialmedia{
+    width: 40%; 
+    float: right;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.socialmedia-logo > img{
+    width: 30px;
+}
+
+.bottom-copyright{
+    padding-top: 100px;
+    text-align: center;
+}
