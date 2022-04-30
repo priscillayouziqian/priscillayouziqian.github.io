@@ -1,2 +1,1 @@
-# https://priscillayouziqian.github.io
-First try webpage assignments
+This is Zhaoyi's Github. Welcome!
