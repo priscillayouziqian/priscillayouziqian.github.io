@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(155, 201, 241);
+}
+
+body > h1{
+    font-family: Rubik Moonrocks, sans-serif;
+    text-align: center;
+}
+
+body > p{
+    text-align: center;
+}
+
+.box{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: antiquewhite;
+   
+}
+
+.currentScore, .btn2, .highscore{
+    background-color: rgb(236, 184, 202);
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;   
+    margin: 1%;
+}
+
