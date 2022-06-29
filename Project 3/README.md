@@ -8,3 +8,10 @@ Guess a number between 1 and 100.  The program will generate a secret number whi
 **Link to project:** https://priscillayouziqian.github.io/Project%203/project3.html
 
 ![image](https://user-images.githubusercontent.com/79026729/166124002-706b905e-de7b-460f-80a5-9452b5ac01ad.png)
+
+## Further more:
+Please take a look at projects that I have in my own portfolio:
+
+**My NASA API Project:** https://priscillayouziqian.github.io/NASA-API/index.html
+
+**Grocery List Application:** https://priscillayouziqian.github.io/GroceryList/index.html
