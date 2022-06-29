@@ -13,3 +13,9 @@ Link to project: https://priscillayouziqian.github.io/NASA-API/index.html
 ## (3) Sometimes, it display a video instead. Just click play button to watch the video.
 ![image](https://user-images.githubusercontent.com/79026729/167324570-b8a60deb-130d-4f90-9197-4746b2484030.png)
 
+## Further more:
+Please take a look at projects that I have in my own portfolio:
+
+**My Web Game Project:** https://priscillayouziqian.github.io/Project%203/project3.html
+
+**Grocery List Application:** https://priscillayouziqian.github.io/GroceryList/index.html
